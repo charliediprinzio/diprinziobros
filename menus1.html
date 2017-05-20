@@ -1,0 +1,373 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<script type="text/javascript">
+$(document).ready(function() {
+$(".smooth").click(function(event){
+         event.preventDefault();
+         //calculate destination place
+         var dest=0;
+         if($(this.hash).offset().top > $(document).height()-$(window).height()){
+              dest=$(document).height()-$(window).height();
+         }else{
+              dest=$(this.hash).offset().top+$;
+         }
+         //go to destination
+         $('html,body').animate({scrollTop:dest}, 300,'swing');
+     });
+});
+</script>
+
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Comtois Hill</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    
+    <link href="css/style.css" rel="stylesheet">
+    
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+  
+    
+   
+     <!-- Page Content -->
+    <div class ="content">
+    <div class="container">
+   		 
+   		 <span class="anchor" id="home"></span>
+       <h1 class="page-header text-center"> 
+        <a href="index.html"> Comtois Hill Catering </a>
+
+        </h1>
+   		
+
+
+
+<div class="row links">
+<div class="col-xs-4">
+    <h4>
+    <a href="equipment_drinks_service.html">Equipment, Drinks &amp; Service</a>
+        </h4>
+    </div>
+<div class="col-xs-4">
+    <h4>
+    <a href="about.html">About us</a>
+        </h4>
+    </div>
+<div class="col-xs-4">
+    <h4 id="bootstrap-override">
+    <a href="index.html" target="#contact">Contact</a>
+   </h4>
+    </div>
+    <hr>
+    <br>
+</div>
+      
+         <!-- Top Images-->
+<!-- carousel -->
+
+<div>
+
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="image/carousel/steak.jpg">
+    </div>
+
+    <div class="item">
+      <img src="image/carousel/dips.jpg">
+    </div>
+
+    <div class="item">
+      <img src="image/carousel/lamb.jpg">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+</div>
+
+
+   
+
+
+    <!--Menus-->
+      <span class="anchor" id="sample"></span>
+      <div class="col-md-12">
+        <div class="head">
+          <hr>          
+          <h2>Sample Menus</h2>
+          <hr>
+        </div>
+        <div class="row">
+        
+
+        <div class="panel-group" id="accordion">
+      
+        <div class="panel panel-default">
+          <span class="anchor" id="passed"></span>
+          <div class="menu-type">
+            
+            <div class="panel-heading" >
+              <h3>
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" id="bootstrap-override">Passed Hors D’oeuvres</a>
+              </h3>
+            </div>
+
+            <div id="collapse1" class="panel-collapse collapse in">
+            <div class="panel-body">
+              <div class="menu-section panel-body">
+              <p class="menu"><span class="CharOverride-2">Chicken liver mousse -</span><span class="CharOverride-6"> pickled wild ramps </span></p>
+              <p class="menu"><span class="CharOverride-2">Sardine - </span><span class="CharOverride-6">currants, olives, rye</span></p>
+              <p class="menu"><span class="CharOverride-2">Homemade sourdough -</span><span class="CharOverride-6"> charred cherry tomatoes, ricotta</span></p>
+              <p class="menu"><span class="CharOverride-2">Cured trout - </span><span class="CharOverride-6">radish, caraway</span></p>
+              <p class="menu"><span class="CharOverride-2">Ratatouille - </span><span class="CharOverride-6">summer molé </span></p>
+              <p class="menu"><span class="CharOverride-2">Eggplant croquette - </span><span class="CharOverride-6">basil, chevre</span></p>
+              <p class="menu"><span class="CharOverride-2">Grain cups - </span><span class="CharOverride-6">sprouts, yogurt</span></p>
+              </div><!--menu section-->
+            </div>
+             </div><!--collapse1-->
+
+          </div><!--menu type-->
+        </div><!--panel-->
+
+
+        <div class="panel panel-default">
+         <span class="anchor" id="seated"></span>
+          <div class="menu-type">
+            
+            <div class="panel-heading">
+              <h3>
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Seated Dinner</a>
+              </h3>
+            </div>
+
+
+            <div id="collapse2" class="panel-collapse collapse">
+            <div class="panel-body">
+              <div class="menu-section">
+                <p class="menu"><span class="CharOverride-2">Raw / roasted oysters</span> - pickled pepper mignonette</p>
+                <p class="menu"><span class="CharOverride-2">Fried cauliflower</span> - pink peppercorn, mint</p>
+                <p class="menu"><span class="CharOverride-2">Pea tartelette</span> - mushroom condiment, lemon oil</p>
+                <p class="menu"><span class="CharOverride-2">Baccalà</span> - ramp leaves, preserved lemon</p>
+              </div>
+                <div class="menu-section">
+                <p class="menu"><span class="CharOverride-2">Fluke</span> - cucumber, buttermilk, watermelon</p>
+                <p class="menu"><span class="CharOverride-2">Beef tartare</span> - pickled mushrooms, pine nuts, chive bud capers</p>
+                <p class="menu"><span class="CharOverride-2">Summer squash</span> - mushrooms, fresh chilies, hazelnuts</p>
+                <p class="menu"><span class="CharOverride-2">Scallops</span> - celery, cured egg yolk</p>
+              </div>
+              <div class="menu-section">
+                <p class="menu"><span class="CharOverride-2">Baked spaghetti parcels</span> - cockles and bottarga</p>
+                <p class="menu"><span class="CharOverride-2">Charred cherry tomatoes</span> - polenta, manchego</p>
+                <p class="menu"><span class="CharOverride-2">Fresh cavatelli</span> - corn, chilies, crab</p>
+                <p class="menu"><span class="CharOverride-2">Orecchiette </span>- fresh pesto, smoked mozzarella</p>
+              </div>
+              <div class="menu-section">
+                <p class="menu"><span class="CharOverride-2">Bass</span> - summer squash and beans, lentils</p>
+                <p class="menu"><span class="CharOverride-2">Cornmeal fried snapper</span> - peas, fregola, cinnamon</p>
+                <p class="menu"><span class="CharOverride-2">Grilled swordfish steaks</span> - charred lemon gremolata, anchovy</p>
+                <p class="menu"><span class="CharOverride-2">Broiled/grilled/ whole fish</span> - shaved zucchini, preserved lemon, crispy quinoa</p>
+              </div>
+              <div class="menu-section">
+                <p class="menu"><span class="CharOverride-2">Porchetta</span> - charred lemon gremolata, fennel, chliies</p>
+                <p class="menu"><span class="CharOverride-2">Standing rib roast</span> - fried potatoes, horseradish</p>
+                <p class="menu"><span class="CharOverride-2">Braised lamb shanks</span> - heirloom beans, chard, pomegranate</p>
+                <p class="menu"><span class="CharOverride-2">Duck</span> - mustard seed, sweet cherries, turnips</p>
+              </div>
+              <div class="menu-section">
+                <p class="menu"><span class="CharOverride-2">Ice cream</span> - olive oil, dark chocolate - burnt peach, basil - strawberry, anise - blackberry, lime</span></p>
+                <p class="menu"><span class="CharOverride-2">Strawberry soufflé</span> - fresh cream</p>
+                <p class="menu"><span class="CharOverride-2">Cannoli</span> - fresh ricotta, pine nuts, dark chocolate</p>
+                <p class="menu"><span class="CharOverride-2">Flan</span> - burnt caramel, summer berries</p>
+              </div>
+              </div>
+            </div>
+          </div>
+          </div>
+
+
+
+
+
+
+
+        <div class="panel panel-default">
+          <span class="anchor" id="feasts"></span>
+          <div class="menu-type-feasts">
+          
+          <div class="panel-heading">
+            <h3>
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Family Feasts</a>
+            </h3>
+          </div>
+          
+          <div id="collapse3" class="panel-collapse collapse">
+            <div class="panel-body">
+            <div class="menu-section-feasts">
+            <div class="row">
+              <table id="test">
+                <body>
+                  <tr>
+                    <td id="side" class="box_rotate">BEEF</td>
+                    <td id="main">
+                      <p class="menu"><span class="CharOverride-2">BIG steaks (dry aged)</span>- chimichurri, cumin, charred lime</p>
+                    <p class="menu"><span class="CharOverride-2">Ribs</span> - gochujang, ginger, spring onions</p>
+                    <p class="menu"><span class="CharOverride-2">Standing roast</span> - garlic scapes, thyme</p>
+                  </td>
+                  </tr>
+                  
+                  <tr>
+                    <td id="side" class="box_rotate">PORK</td>
+                    <td id="main">
+                      <p class="menu"><span class="CharOverride-2">Porchetta</span> - rosemary, fennel fronds,</p>
+                    <p class="menu"><span class="CharOverride-2">Whole leg/shoulder</span> - garlic, oregano, annatto, coriander</p>
+                    </td>
+                  </tr>
+                  
+                  <tr>
+                    <td id="side" class="box_rotate">LAMB</td>
+                    <td id="main">
+                      <p class="menu"><span class="CharOverride-2">Leg</span> - mustard, cumin, rosemary</p>
+                    <p class="menu"><span class="CharOverride-2">Cumin ribs</span> - grilled broccoli, crispy shallots</p>
+                    <p class="menu"><span class="CharOverride-2">Half/whole</span> - moroccan spices, carrots, harissa</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td id="side" class="box_rotate">POULTRY</td>
+                    <td id="main">
+                      <p class="menu"><span class="CharOverride-2">Roast chicken</span> - lemon, roasted garlic, baby mushrooms</p>
+                    <p class="menu"><span class="CharOverride-2">Duck</span> - mustard seed, sweet cherries, turnips</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td id="side" class="box_rotate">FISH</td>
+                    <td id="main">
+                      <p class="menu"><span class="CharOverride-2">Salt-baked / broiled / grilled  whole fish</span> - citrus, thyme</p>
+                    <p class="menu"><span class="CharOverride-2">Fritto misto</span> - calamari, smelt, shrimp, etc.</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td id="side" class="box_rotate">VEG</td>
+                    <td id="main">
+                      <p class="menu"><span class="CharOverride-2">Three hour ratatouille</span> - eggplant, summer squash, tomatoes</p>
+                    <p class="menu"><span class="CharOverride-2">Charred cabbage</span> - sweet corn, brown butter</p>
+                    <p class="menu"><span class="CharOverride-2">Tomato tart</span> - ricotta, basil, anchovy</p>
+                    <p class="menu"><span class="CharOverride-2">Quiche</span> - leek, mushroom, goat cheese</p>
+                    <p class="menu"><span class="CharOverride-2">Grilled beans</span> - pepper marmalade, hazelnut</p>
+                    <br>
+                  </td>
+                  </tr>
+                  <tr>
+                    <td id="side" class="box_rotate">BREAD</td>
+                    <td id="main">
+                      <p class="menu"><span class="CharOverride-2">Lisa’s homemade sourdough bread</span></p>
+                    <div style="margin-left: 20px;">
+                    <p class="menu"><span class="CharOverride-6">olive</span></p>
+                    <p class="menu"><span class="CharOverride-6">walnut</span></p>
+                    <p class="menu"><span class="CharOverride-6">ciabatta</span></p>
+                    </div>
+                    <br>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td id="side" class="box_rotate">DESSERT</td>
+                    <td id="main">
+                      <p class="menu"><span class="CharOverride-2">Fresh old fashioned doughnuts</span> - cinnamon, cardamon - lemon, strawberry - honey</p>
+                    <p class="menu"><span class="CharOverride-2">Ice cream</span> - olive oil-dark chocolate, burnt peach-basil, strawberry-anise, blackberry-lime, toasted hazelnut, coffee-cardamom.</p>
+                    <p class="menu"><span class="CharOverride-2">Fig torta</span> - olive oil, fennel seed</p>
+                    <p class="menu"><span class="CharOverride-2">Berry curd tart</span>  - lime, basil, mint</p>
+                    <p class="menu"><span class="CharOverride-2">Italian cookies &amp; cannoli</span></p>
+                  </td>
+                  </tr>
+                </body>
+              </table>
+          </div>
+          </div>
+          </div>
+          </div>
+        </div>
+        </div>
+        
+          
+        </div>
+        </div>
+        
+  
+
+    		
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <footer class="footer">
+      <div class="container">
+        <span class="text-muted"> </span>
+      </div>
+    </footer>
+
+	
+		</div><!--Close col 12-->
+	</div><!--container-->
+	</div><!--content-->
+
+<!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+
+
+
+</html>

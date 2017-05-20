@@ -1,0 +1,153 @@
+body{
+	font-family:"Avenir", sans serif;
+}
+.title{
+	font-style: italic;
+	color: red;
+}
+.page-header{
+	margin-top:2em;
+	padding-bottom:30px;
+}
+.navbar-default{
+/*	background-color: #022440;*/
+}
+.intro{
+	line-height: 200%;
+	font-size: 135%;
+}
+.nav_menu{
+	line-height: 500%;
+	list-style: none;
+	color: #022440;	
+}
+.set-table{
+	padding-top:30px;
+	padding-bottom:30px;
+}
+.top-image{
+	padding-bottom:30px
+	max-height:300px;
+	margin: 0;
+}
+
+#vertical-image{
+	padding-bottom:12px;
+}
+nav{ 
+	font-weight:bold;
+}
+
+h1, h2, h3{
+	font-style: italic;
+	color: red;
+}
+
+.links{
+	text-align: center;
+}
+a{
+	color:black;
+}
+a:hover{
+	color: black;
+}
+#active{
+	text-decoration: underline;
+}
+.about{
+	margin-left: 80px;
+	line-height: 200%;
+	font-size: 115%;
+}
+.head{
+	text-align: center;
+	padding-top: 50px;
+}
+.menu-section{
+	margin-left: 80px;
+	font-size: 125%;
+	padding-bottom: 30px;
+	
+}
+.CharOverride-2{
+	font-weight: 500;
+	text-align: justify;
+}
+.menu{
+	line-height: 150%;
+}
+.vertical{
+ 	 -webkit-transform: rotate(-90deg);
+ 	 font-size: 115%;
+ 	 text-align: left;
+}
+.col-sm-1{
+	transform: translateY(40px);
+}
+
+.contact{
+	margin-top: 100px;
+	margin-bottom: 100px;
+	text-align: center;
+	font-size: 150%;
+}
+.footer{
+	text-align:right;
+	margin-top: 60px;
+}
+
+.anchor{
+   display:block;
+   height:53px; /* this is the height of your header */
+   margin-top:-53px; /* this is again negative value of the height of your header */
+   visibility:hidden;
+}
+.menu-section-feasts{
+	font-size: 125%;
+	line-height: 80%;
+	display: inline-block;
+}
+
+.menu-type{
+	margin-bottom: 25px;
+}
+.box_rotate {
+	-webkit-transform: rotate(-90deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+          transform: rotate(-90deg);  /* Firefox 16+, IE 10+, Opera */
+}
+#side{
+width: 100px;
+vertical-align: middle;
+text-align: center;
+border-top: hidden;
+border-bottom: hidden;
+border-right: hidden;
+font-size: 115%;
+}
+#main{
+height: 100px;
+vertical-align: middle;
+border-left: hidden;
+border-right: hidden;
+border-bottom: hidden;
+}
+#test p{
+line-height: 1em;	
+}
+tr{
+	border-bottom: solid;
+	border-top: black;
+}
+.carousel-inner{
+	max-height: 700px;
+	margin-top: 30px;
+}
+h4{
+color: black;
+}
+#top_pictures{
+padding-bottom: 3em;
+}
+	
+	

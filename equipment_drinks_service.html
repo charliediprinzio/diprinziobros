@@ -1,0 +1,158 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<script type="text/javascript">
+$(document).ready(function() {
+$(".smooth").click(function(event){
+         event.preventDefault();
+         //calculate destination place
+         var dest=0;
+         if($(this.hash).offset().top > $(document).height()-$(window).height()){
+              dest=$(document).height()-$(window).height();
+         }else{
+              dest=$(this.hash).offset().top+$;
+         }
+         //go to destination
+         $('html,body').animate({scrollTop:dest}, 300,'swing');
+     });
+});
+</script>
+
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>DiPrinzio Bros</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    
+    <link href="css/style.css" rel="stylesheet">
+    
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+  
+    
+   
+     <!-- Page Content -->
+    <div class ="content">
+    <div class="container">
+   		 
+   		 <span class="anchor" id="home"></span>
+       <h1 class="page-header text-center"> 
+               <a href="index.html" class="title"> DiPrinzio Bros Catering </a>
+        </h1>
+   		
+
+
+
+<div class="row links text-center">
+<div class="col-xs-3">
+    <h4>
+        <a href="menus.html"> Sample Menus</a>
+        </h4>
+    </div>
+<div class="col-xs-3">
+    <h4>
+    <a href="equipment_drinks_service.html" id="active">Equipment, Drinks &amp; Service</a>
+        </h4>
+    </div>
+<div class="col-xs-3">
+    <h4>
+    <a href="about.html" >About us</a>
+   </h4>
+    </div>
+<div class="col-xs-3">
+    <h4>
+    <a href="index.html#contact">Contact</a>
+   </h4>
+    </div>
+
+    <hr>
+    <br>
+</div>
+  
+
+<div class="row">
+  <div class=col-md-4>
+    <div class="top-image">
+    <img class="img-responsive" src="image/carousel/deck_table.jpg">
+    </div>
+  </div>
+
+<div class=col-md-8>
+    <div>
+           <div class="menu-type">
+            <h3>Drinks</h3>
+            <hr>
+            <div class="menu-section">
+              <p class="menu">Drinks are an essential part of any festive summer gathering!</p>
+              <p class="menu">We can provide drink service during the meal, bar service, or cocktail hour.</p>
+              <p class="menu">We can work with you to arrange wines or beers that go nicely with the meal or can propose a speciality cocktail.</p>
+            </div>
+          </div>
+          
+          <div class="menu-type">
+            <h3>Equipment &amp; Preparation</h3>
+            <hr>
+            <div class="menu-section">
+              <p class="menu">We’ll work with you to make sure everything is worked out in advance, from what we’ll be serving, to what equipment or smallware rentals we’ll need.</p>  
+            </div>
+          </div>
+        
+          <div class="menu-type">
+            <h3>Service</h3>
+            <hr>
+            <div class="menu-section">
+              <p class="menu">We understand that service is an essential aspect of a great event. You’re hiring us because you don’t want to be caught up in the details and the work yourself!</p>
+              <p class="menu">We can arrange wait and cleaning staff to fit the event’s needs.</p>  
+              <p class="menu">When it’s all over, we’ll make sure everything is cleaner than when we arrived and be out of your hair.</p>
+            </div>
+          </div>
+
+
+         </div>
+    
+</div>
+
+
+</div>
+	
+   <footer class="footer">
+      <div class="container">
+        <span class="text-muted"> </span>
+      </div>
+    </footer>
+
+	
+		</div><!--Close col 12-->
+	</div><!--container-->
+	</div><!--content-->
+
+<!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+
+
+
+</html>

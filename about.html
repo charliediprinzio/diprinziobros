@@ -1,0 +1,175 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<script type="text/javascript">
+$(document).ready(function() {
+$(".smooth").click(function(event){
+         event.preventDefault();
+         //calculate destination place
+         var dest=0;
+         if($(this.hash).offset().top > $(document).height()-$(window).height()){
+              dest=$(document).height()-$(window).height();
+         }else{
+              dest=$(this.hash).offset().top+$;
+         }
+         //go to destination
+         $('html,body').animate({scrollTop:dest}, 300,'swing');
+     });
+});
+</script>
+
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>DiPrinzio Bros</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    
+    <link href="css/style.css" rel="stylesheet">
+    
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+  
+    
+   
+     <!-- Page Content -->
+    <div class ="content">
+    <div class="container">
+   		 
+   		 <span class="anchor" id="home"></span>
+       <h1 class="page-header text-center"> 
+        <a href="index.html" class="title"> DiPrinzio Bros Catering </a>
+       </h1>
+   		
+
+
+
+<div class="row links text-center">
+<div class="col-xs-3">
+    <h4>
+        <a href="menus.html"> Sample Menus</a>
+        </h4>
+    </div>
+<div class="col-xs-3">
+    <h4>
+    <a href="equipment_drinks_service.html">Equipment, Drinks &amp; Service</a>
+        </h4>
+    </div>
+
+<div class="col-xs-3">
+    <h4>
+    <a href="about.html"  id="active">About us</a>
+   </h4>
+       </div>
+
+<div class="col-xs-3">
+    <h4>
+    <a href="index.html#contact">Contact</a>
+   </h4>
+    </div>
+
+    <hr>
+    <br>
+</div>
+      
+   
+
+
+
+    <div>
+    <hr>
+     <span class="about">
+        
+          <p class="about">
+            Harry and Charlie DiPrinzio have collective cooking experience in many highly regarded restaurants including Gramercy Tavern, Betony, Bouley, Blue Hill and ZZ’s Clam Bar.</p>
+                <p class="about">
+                    Charlie has spent the past year working and learning in the food industry at Gramercy Tavern, Maple and in Bologna, Italy. He will be attending college in the fall.</p>
+                <p class="about">   
+                    Harry is a rising college senior and spent last fall studying food security in California, Tanzania, India and Italy. 
+                </p>
+            </span>
+
+
+         </div>
+    
+      <!-- Top Images-->
+
+
+<div class="row">
+<div class=col-md-2></div>
+<div class="col-md-8">
+<div class="top-image">
+<img class="img-responsive" src="image/carousel/us.jpg">
+</div>
+</div>
+<div class=col-md-2></div>
+
+</div>
+
+
+</div>
+
+    		
+	
+
+
+
+      <!--<span class="anchor" id="contact"></span>
+			<div class="contact">
+        <h2>Get in Touch</h2>
+				<hr>
+				
+				<p>Reach out to us to discuss your event and we’ll send you a quote.</p>
+                 
+        <br>
+        <br>
+
+
+				<p>
+        Harry &amp; Charlie DiPrinzio   
+        <br>
+        <a href="mailto:hdiprinzio@me.com">hdiprinzio@me.com</a>
+				<br>
+        917 770 2277</p>
+			</div>--><!--contact-->
+	
+   <footer class="footer">
+      <div class="container">
+        <span class="text-muted"> </span>
+      </div>
+    </footer>
+
+	
+		</div><!--Close col 12-->
+	</div><!--container-->
+	</div><!--content-->
+
+<!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+
+
+
+</html>
